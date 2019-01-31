@@ -1,0 +1,100 @@
+
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif|Share+Tech+Mono");
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+
+
+@charset "UTF-8";
+
+
+body {
+  font-family: "Droid Serif", sans-serif;
+  background-color:snow;
+
+}
+
+fieldset{
+
+  background-image:url(https://i.pinimg.com/originals/8d/d7/39/8dd7394ec10610b5e2aa15973a788094.jpg);
+  background-size: 700px;
+}
+
+.one{
+  color:#FF69B4;
+  text-align: center;
+  font-size: 25pt;
+  font-weight: 400;
+  font-family: cursive;
+
+}
+
+.background{
+
+  background-image:url(https://timedotcom.files.wordpress.com/2018/12/champagne-tips.jpg);
+  background-size: 750px;
+
+}
+
+h1{
+  font-family: cursive;
+  text-align: center;
+  font-size: 150px;
+  color: #DB7093;
+-webkit-animation: flash linear 3s;
+animation: flash linear 3s;
+
+}
+@-webkit-keyframes flash {
+	0% { opacity: 1; }
+	50% { opacity: .1; }
+	100% { opacity: 1; }
+}
+
+
+p.a{
+  font-family:times;
+  font-size: 37px;
+  color: pink;
+  text-align: center;
+}
+
+p.b{
+  font-family:times;
+  color: #FF69B4;
+}
+
+p.b{
+  font-family:times;
+  font-style: oblique;
+  font-size: 30px;
+  color:#800080;
+}
+
+th{
+  font-size: 30px;
+  font-family: 'Josefin Slab', serif;
+  color:#DB7093;
+
+}
+
+select.bmenu{
+  position: center;
+  font-family:cursive;
+  font-size: 11pt;
+  width: 200px;
+  height: 22px;
+  padding: 16px 36px;
+  background-color:#EE82EE;
+}
+tr{
+  font-size: 30px;
+  font-family: 'Josefin Slab', serif;
+  color:#DB7093;
+}
+
+p.gender{
+  font-family: times;
+  font-style: normal;
+  font-size: 14pt;
+  color: #EE82EE;
+}
