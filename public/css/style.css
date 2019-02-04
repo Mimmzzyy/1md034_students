@@ -9,8 +9,18 @@
 
 body {
   font-family: "Droid Serif", sans-serif;
-  background-color:snow;
+  background-color: snow;
 
+
+}
+
+@media screen and (max-width: 800px){
+  body{
+    font-family: "Droid Serif", sans-serif;
+    background-color:snow;
+
+
+  }
 }
 
 fieldset{
@@ -19,26 +29,34 @@ fieldset{
   background-size: 700px;
 }
 
-.one{
+@media screen and (max-width: 800px){
+  fieldset{
+
+    background-image:url(https://i.pinimg.com/originals/8d/d7/39/8dd7394ec10610b5e2aa15973a788094.jpg);
+    background-size: 700px;
+  }
+}
+
+p.one{
   color:#FF69B4;
   text-align: center;
-  font-size: 25pt;
+  font-size: 50px;
   font-weight: 400;
   font-family: cursive;
 
 }
 
-.background{
-
+div.background{
   background-image:url(https://timedotcom.files.wordpress.com/2018/12/champagne-tips.jpg);
-  background-size: 750px;
+  background-size: 700px;
 
 }
+
 
 h1{
   font-family: cursive;
   text-align: center;
-  font-size: 150px;
+  font-size: 100px;
   color: #DB7093;
 -webkit-animation: flash linear 3s;
 animation: flash linear 3s;
@@ -49,6 +67,24 @@ animation: flash linear 3s;
 	50% { opacity: .1; }
 	100% { opacity: 1; }
 }
+
+@media screen and (max-width:800px){
+  h1{
+    font-family: cursive;
+    text-align: center;
+    font-size: 100px;
+    color: #DB7093;
+  -webkit-animation: flash linear 3s;
+  animation: flash linear 3s;
+
+  }
+  @-webkit-keyframes flash {
+    0% { opacity: 1; }
+    50% { opacity: .1; }
+    100% { opacity: 1; }
+  }
+
+  }
 
 
 p.a{
@@ -70,10 +106,21 @@ p.b{
   color:#800080;
 }
 
-th{
+.grid{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 900px 900px 900px;
+  background-color:snow;
+
+}
+
+.grid-item{
   font-size: 30px;
   font-family: 'Josefin Slab', serif;
   color:#DB7093;
+  grid-row-gap: 1;
+  grid-column-gap: 1;
+
 
 }
 
@@ -86,15 +133,25 @@ select.bmenu{
   padding: 16px 36px;
   background-color:#EE82EE;
 }
-tr{
-  font-size: 30px;
-  font-family: 'Josefin Slab', serif;
-  color:#DB7093;
-}
+
+
 
 p.gender{
   font-family: times;
   font-style: normal;
   font-size: 14pt;
   color: #EE82EE;
+}
+
+p.i{
+  color:#800080;
+}
+
+select.payment{
+
+  font-size: 11pt;
+  width: 200px;
+  height: 22px;
+  padding: 16px 36px;
+  background-color:#EE82EE;
 }
